@@ -11,7 +11,7 @@ required build tools and how to use it to build packages.
 
 Start by building a container that will act as package build environment:
 
-    docker build -t docker-deb-builder:17.04 -f Dockerfile-ubuntu-17.04 .
+    docker build -t docker-deb-builder:20.04 -f Dockerfile-ubuntu-20.04 .
 
 In this example the target is Ubuntu 17.04 but you can create and
 modify `Dockerfile-nnn` to match your target environment.
